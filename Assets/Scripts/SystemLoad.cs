@@ -25,6 +25,7 @@ public class SystemLoad : MonoBehaviour {
             .Add(pool.CreateSystem(new CreateEntitySystem()))
             .Add(pool.CreateSystem(new InstantiateGameObjectSystem()))
             .Add(pool.CreateSystem(new MoveToMouseSystem()))
+            .Add(pool.CreateSystem(new DestroyGameObjectSystem()))
             //.Add(pool.CreateSystem(new RemoveGameObjectSystem()))
             ;
     }

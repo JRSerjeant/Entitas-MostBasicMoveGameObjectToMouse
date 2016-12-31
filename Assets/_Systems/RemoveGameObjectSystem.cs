@@ -6,7 +6,7 @@ using UnityEngine;
 public class RemoveGameObjectSystem : IInitializeSystem /*: IReactiveSystem, ISetPool*/
 {
     Entity _Entity;
-
+    Pool _Pool;
 
 
     //public void Init(Pool pool, Entity entity)
